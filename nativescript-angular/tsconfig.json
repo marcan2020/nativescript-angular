@@ -16,7 +16,8 @@
     "noImplicitAny": false,
     "lib": [
         "dom",
-        "es6"
+        "es6",
+        "es2015.iterable"
     ],
     "baseUrl": ".",
     "paths": {
