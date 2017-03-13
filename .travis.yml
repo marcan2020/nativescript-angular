@@ -31,6 +31,7 @@ install:
 - npm run tslint
 - cd ../tests
 - npm install
+- tns platform
 - tns platform add android
 before_script:
 - echo no | android create avd --force -n test -t android-19 -b armeabi-v7a
